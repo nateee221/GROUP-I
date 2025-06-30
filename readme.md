@@ -1,3 +1,4 @@
+GROUP I
 **LGU Asset Tracking System**
 
 A comprehensive asset management system designed for Local Government Units (LGUs) to efficiently track, manage, and monitor their assets, assignments, transfers, and maintenance records.
