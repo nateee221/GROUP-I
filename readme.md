@@ -23,7 +23,6 @@ A comprehensive asset management system designed for Local Government Units (LGU
 - Multi-language Support: Internationalization ready
 - Real-time Updates: Live data synchronization
 - Export Capabilities: Generate reports and export data
-- Email Notifications: Automated email alerts for important events
 
 ### Technology Stack
 
@@ -32,7 +31,6 @@ A comprehensive asset management system designed for Local Government Units (LGU
 - Database: Supabase (PostgreSQL) with localStorage fallback
 - Authentication: Custom authentication system
 - Charts: Recharts for data visualization
-- Email: SMTP integration for notifications
 - Icons: Lucide React
 
 ### Prerequisites
@@ -196,8 +194,6 @@ npm start
 **Authentication**
 
 - POST `/api/auth/login`
-- POST `/api/auth/forgot-password`
-- POST `/api/auth/reset-password`
 
 **Resources**
 
@@ -213,11 +209,6 @@ npm start
 
 - Check Supabase settings
 - Use localStorage as fallback
-
-**Email Issues**
-
-- Verify SMTP settings
-- Confirm credentials
 
 **Permissions**
 
